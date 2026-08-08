@@ -179,19 +179,21 @@ export default function JoinAsDoctor() {
           </div>
         </div>
 
-        <div>
-          <label className="block text-sm font-medium text-ink mb-1.5">
-            Upload registration certificate
-          </label>
-          <input
-            type="file"
-            name="certificate"
-            required
-            accept=".pdf,.jpg,.jpeg,.png"
-            className="w-full border border-line rounded-lg px-4 py-3 outline-none focus:border-primary bg-white text-sm"
-          />
-          <p className="text-xs text-muted mt-1.5">
-            PDF or photo of your medical council registration certificate.
+        <div className="bg-primary/5 border border-primary/20 rounded-lg p-4">
+          <p className="text-sm text-ink font-medium">
+            After submitting this form, email your registration certificate
+          </p>
+          <p className="text-sm text-muted mt-1">
+            Send a PDF or photo of your medical council registration
+            certificate to{" "}
+            <a
+              href="mailto:arijitsahu73@gmail.com"
+              className="text-primary underline"
+            >
+              arijitsahu73@gmail.com
+            </a>{" "}
+            with your name in the subject line. We'll match it to your
+            submission.
           </p>
         </div>
 
