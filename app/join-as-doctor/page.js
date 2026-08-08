@@ -13,7 +13,7 @@ const specialties = [
 ];
 
 // TODO: replace this with your real Formspree endpoint
-const FORM_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+const FORM_ENDPOINT = https://formspree.io/f/myegkjwn
 
 export default function JoinAsDoctor() {
   return (
